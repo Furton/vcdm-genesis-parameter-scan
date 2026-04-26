@@ -1,34 +1,55 @@
-# Genesis VCDM Scan Table
+Numerical scan and analytic fit for the scalar power spectrum in the Genesis VCDM model.
 
-This repository contains one data file:
+## Contents
 
-- `genesis_scan_table.csv`
+- `genesis_scan_table.csv` — numerical grid with `512,000` points.
+- `Fitting.ipynb` — fit, validation, and heat-map plots.
+- `Analytic fit.nb` — Wolfram notebook with the final formula, sample evaluations.
+- `verification_loss.png` — verification-set error heat map.
+- `full_loss.png` — full-grid error heat map.
 
-The file is a precomputed grid table for the Genesis VCDM model. It has **512,000 rows** and **6 columns**.
+## Data
 
-## Priors and grid
+The scan uses an `80 x 80 x 80` grid.
 
-The scan uses **80 points** for each input parameter, giving `80 × 80 × 80 = 512,000` grid points.
-
-| Parameter | Prior range | Grid type |
+| parameter | range | spacing |
 |---|---:|---|
-| `alpha` | `1e-30` to `1e-21` | logarithmic |
+| `alpha` | `1e-30` to `1e-21` | log |
 | `d` | `0.1` to `0.4` | linear |
-| `kappa` | `1e-9` to `1e-4` | logarithmic |
+| `kappa` | `1e-9` to `1e-4` | log |
 
-## Columns
-
-| Column | Description |
+| column | meaning |
 |---|---|
-| `alpha` | Input parameter |
-| `d` | Input parameter |
-| `kappa` | Input parameter |
-| `Ps` | Calculated scalar power spectrum; not normalized |
-| `ns` | Scalar spectral index |
-| `alpha_s` | Running of the scalar spectral index |
+| `alpha`, `d`, `kappa` | input parameters |
+| `Ps` | numerical scalar power spectrum, unnormalized |
+| `ns` | scalar spectral index |
+| `alpha_s` | running of the scalar spectral index |
 
-## Interpolation
 
-The file stores the calculated scalar power spectrum `Ps`. This `Ps` is not normalized.
+## Validation
 
-To evaluate `ns` and `alpha_s`, we use **cubic spline interpolation** of `Ps`.
+The split is done by unique `(d, kappa)` pairs, keeping all `alpha` values together.
+
+| split | mean error | max error |
+|---|---:|---:|
+| training | 0.11% | 0.33% |
+| verification | 0.11% | 0.33% |
+
+![Verification loss](verification_loss.png)
+
+![Full-grid loss](full_loss.png)
+
+## Run
+
+Python notebook:
+
+```bash
+pip install numpy pandas scipy matplotlib jupyter
+jupyter notebook Fitting.ipynb
+```
+
+Wolfram notebook:
+
+```text
+Open `Analytic fit.nb` in Wolfram Mathematica.
+```
