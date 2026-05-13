@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     17877,        552]
-NotebookOptionsPosition[     17189,        533]
-NotebookOutlinePosition[     17601,        549]
-CellTagsIndexPosition[     17558,        546]
+NotebookDataLength[     18020,        554]
+NotebookOptionsPosition[     17332,        535]
+NotebookOutlinePosition[     17743,        551]
+CellTagsIndexPosition[     17700,        548]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -163,9 +163,10 @@ Cell[BoxData[{
        RowBox[{"d", ",", "kappa"}], "]"}], "]"}], "^", "q"}]}]}], 
   ";"}]}], "Input",
  CellChangeTimes->{{3.98611627424308*^9, 3.9861162842898874`*^9}, {
-  3.9861175334772186`*^9, 3.9861175682222643`*^9}, {3.9861176275937366`*^9, 
-  3.986117646264758*^9}, {3.986117879725818*^9, 3.9861178942458906`*^9}, {
-  3.986117969510299*^9, 3.986117991492772*^9}},
+   3.9861175334772186`*^9, 3.9861175682222643`*^9}, {3.9861176275937366`*^9, 
+   3.986117646264758*^9}, {3.986117879725818*^9, 3.9861178942458906`*^9}, {
+   3.986117969510299*^9, 3.986117991492772*^9}, 3.987642933052682*^9, 
+   3.98764302177514*^9},
  CellLabel->"In[1]:=",ExpressionUUID->"d1513553-1578-43ef-a533-1d67de7f4654"],
 
 Cell[BoxData[{
@@ -296,7 +297,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.9861171667811174`*^9, 3.9861172180829096`*^9}, {
    3.9861173408780613`*^9, 3.986117349076935*^9}, {3.986117400520648*^9, 
    3.986117428897199*^9}, {3.9861175899596868`*^9, 3.9861175963930283`*^9}, 
-   3.9861179925584683`*^9},
+   3.9861179925584683`*^9, {3.987642987908992*^9, 3.9876430012443542`*^9}},
  CellLabel->"In[16]:=",ExpressionUUID->"e2b2469c-66fa-475f-99ee-590a268a6196"],
 
 Cell[BoxData[
@@ -309,19 +310,19 @@ Cell[BoxData[
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"7.69265\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"-22\"\>"]}],
+        RowBox[{"\<\"2.32857\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"-29\"\>"]}],
         ShowStringCharacters->False],
-       7.692649574879162*^-22,
+       2.3285662984981965`*^-29,
        AutoDelete->True],
       ScientificForm], 
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"1.60759\"\>", "\[Times]", 
+        RowBox[{"\<\"1.41772\"\>", "\[Times]", 
          SuperscriptBox["10", "\<\"-1\"\>"]}],
         ShowStringCharacters->False],
-       0.1607594936708861,
+       0.14177215189873418`,
        AutoDelete->True],
       ScientificForm], 
      TagBox[
@@ -336,185 +337,185 @@ Cell[BoxData[
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"1.4061441\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"16\"\>"]}],
+        RowBox[{"\<\"1.1251841\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"23\"\>"]}],
         ShowStringCharacters->False],
-       1.4061440657304456`*^16,
+       1.1251840619147053`*^23,
        AutoDelete->True],
       ScientificForm[#, 8]& ], 
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"1.4067545\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"16\"\>"]}],
+        RowBox[{"\<\"1.126006\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"23\"\>"]}],
         ShowStringCharacters->False],
-       1.4067545379071356`*^16,
+       1.1260059583528684`*^23,
        AutoDelete->True],
       ScientificForm[#, 8]& ], 
      TagBox[
       InterpretationBox[
-       StyleBox["\<\"0.04\"\>",
+       StyleBox["\<\"0.07\"\>",
         ShowStringCharacters->False],
-       0.043395785138045095`,
+       0.0729921926315047,
        AutoDelete->True],
       NumberForm[#, {5, 2}]& ]},
     {
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"1.09138\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"-24\"\>"]}],
-        ShowStringCharacters->False],
-       1.0913767146512783`*^-24,
-       AutoDelete->True],
-      ScientificForm], 
-     TagBox[
-      InterpretationBox[
-       StyleBox[
-        RowBox[{"\<\"1.83544\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"-1\"\>"]}],
-        ShowStringCharacters->False],
-       0.1835443037974684,
-       AutoDelete->True],
-      ScientificForm], 
-     TagBox[
-      InterpretationBox[
-       StyleBox[
-        RowBox[{"\<\"3.027\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"-6\"\>"]}],
-        ShowStringCharacters->False],
-       3.0270016537634676`*^-6,
-       AutoDelete->True],
-      ScientificForm], 
-     TagBox[
-      InterpretationBox[
-       StyleBox[
-        RowBox[{"\<\"2.2422929\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"19\"\>"]}],
-        ShowStringCharacters->False],
-       2.2422929261096854`*^19,
-       AutoDelete->True],
-      ScientificForm[#, 8]& ], 
-     TagBox[
-      InterpretationBox[
-       StyleBox[
-        RowBox[{"\<\"2.2432193\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"19\"\>"]}],
-        ShowStringCharacters->False],
-       2.2432193072088183`*^19,
-       AutoDelete->True],
-      ScientificForm[#, 8]& ], 
-     TagBox[
-      InterpretationBox[
-       StyleBox["\<\"0.04\"\>",
-        ShowStringCharacters->False],
-       0.041296947478830504`,
-       AutoDelete->True],
-      NumberForm[#, {5, 2}]& ]},
-    {
-     TagBox[
-      InterpretationBox[
-       StyleBox[
-        RowBox[{"\<\"4.55227\"\>", "\[Times]", 
+        RowBox[{"\<\"2.69389\"\>", "\[Times]", 
          SuperscriptBox["10", "\<\"-22\"\>"]}],
         ShowStringCharacters->False],
-       4.5522682755073095`*^-22,
+       2.6938893095901644`*^-22,
        AutoDelete->True],
       ScientificForm], 
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"2.51899\"\>", "\[Times]", 
+        RowBox[{"\<\"2.48101\"\>", "\[Times]", 
          SuperscriptBox["10", "\<\"-1\"\>"]}],
         ShowStringCharacters->False],
-       0.2518987341772152,
+       0.24810126582278486`,
        AutoDelete->True],
       ScientificForm], 
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"5.91769\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"-8\"\>"]}],
+        RowBox[{"\<\"1.64131\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"-7\"\>"]}],
         ShowStringCharacters->False],
-       5.9176857481888305`*^-8,
+       1.64130719537513*^-7,
        AutoDelete->True],
       ScientificForm], 
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"7.0691692\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"17\"\>"]}],
+        RowBox[{"\<\"1.0600597\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"18\"\>"]}],
         ShowStringCharacters->False],
-       7.069169193467992*^17,
+       1.0600596632377832`*^18,
        AutoDelete->True],
       ScientificForm[#, 8]& ], 
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"7.0622562\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"17\"\>"]}],
+        RowBox[{"\<\"1.0594419\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"18\"\>"]}],
         ShowStringCharacters->False],
-       7.062256150735415*^17,
+       1.0594419093901594`*^18,
        AutoDelete->True],
       ScientificForm[#, 8]& ], 
      TagBox[
       InterpretationBox[
-       StyleBox["\<\"0.10\"\>",
+       StyleBox["\<\"0.06\"\>",
         ShowStringCharacters->False],
-       0.09788717068635044,
+       0.05830936478425919,
        AutoDelete->True],
       NumberForm[#, {5, 2}]& ]},
     {
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"2.26168\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"-25\"\>"]}],
+        RowBox[{"\<\"9.16274\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"-28\"\>"]}],
         ShowStringCharacters->False],
-       2.2616759492228737`*^-25,
+       9.162739011886693*^-28,
        AutoDelete->True],
       ScientificForm], 
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"1.64557\"\>", "\[Times]", 
+        RowBox[{"\<\"1.\"\>", "\[Times]", 
          SuperscriptBox["10", "\<\"-1\"\>"]}],
         ShowStringCharacters->False],
-       0.16455696202531647`,
+       0.1,
        AutoDelete->True],
       ScientificForm], 
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"6.2729\"\>", "\[Times]", 
-         SuperscriptBox["10", "\<\"-6\"\>"]}],
+        RowBox[{"\<\"1.54837\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"-9\"\>"]}],
         ShowStringCharacters->False],
-       6.2728998581962565`*^-6,
+       1.548365256585496*^-9,
        AutoDelete->True],
       ScientificForm], 
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"2.9951747\"\>", "\[Times]", 
+        RowBox[{"\<\"4.8759937\"\>", "\[Times]", 
          SuperscriptBox["10", "\<\"19\"\>"]}],
         ShowStringCharacters->False],
-       2.9951746610800857`*^19,
+       4.875993664159414*^19,
        AutoDelete->True],
       ScientificForm[#, 8]& ], 
      TagBox[
       InterpretationBox[
        StyleBox[
-        RowBox[{"\<\"2.9948695\"\>", "\[Times]", 
+        RowBox[{"\<\"4.8817074\"\>", "\[Times]", 
          SuperscriptBox["10", "\<\"19\"\>"]}],
         ShowStringCharacters->False],
-       2.994869513376561*^19,
+       4.881707385424899*^19,
        AutoDelete->True],
       ScientificForm[#, 8]& ], 
      TagBox[
       InterpretationBox[
-       StyleBox["\<\"0.01\"\>",
+       StyleBox["\<\"0.12\"\>",
         ShowStringCharacters->False],
-       0.010189014985839684`,
+       0.11704350167616173`,
+       AutoDelete->True],
+      NumberForm[#, {5, 2}]& ]},
+    {
+     TagBox[
+      InterpretationBox[
+       StyleBox[
+        RowBox[{"\<\"2.54134\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"-23\"\>"]}],
+        ShowStringCharacters->False],
+       2.5413430367026287`*^-23,
+       AutoDelete->True],
+      ScientificForm], 
+     TagBox[
+      InterpretationBox[
+       StyleBox[
+        RowBox[{"\<\"1.4557\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"-1\"\>"]}],
+        ShowStringCharacters->False],
+       0.14556962025316456`,
+       AutoDelete->True],
+      ScientificForm], 
+     TagBox[
+      InterpretationBox[
+       StyleBox[
+        RowBox[{"\<\"3.4013\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"-7\"\>"]}],
+        ShowStringCharacters->False],
+       3.401304938279253*^-7,
+       AutoDelete->True],
+      ScientificForm], 
+     TagBox[
+      InterpretationBox[
+       StyleBox[
+        RowBox[{"\<\"1.2929437\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"17\"\>"]}],
+        ShowStringCharacters->False],
+       1.292943720978059*^17,
+       AutoDelete->True],
+      ScientificForm[#, 8]& ], 
+     TagBox[
+      InterpretationBox[
+       StyleBox[
+        RowBox[{"\<\"1.2938511\"\>", "\[Times]", 
+         SuperscriptBox["10", "\<\"17\"\>"]}],
+        ShowStringCharacters->False],
+       1.2938511113947442`*^17,
+       AutoDelete->True],
+      ScientificForm[#, 8]& ], 
+     TagBox[
+      InterpretationBox[
+       StyleBox["\<\"0.07\"\>",
+        ShowStringCharacters->False],
+       0.07013097633056242,
        AutoDelete->True],
       NumberForm[#, {5, 2}]& ]}
    },
@@ -527,12 +528,13 @@ Cell[BoxData[
    3.9861172301293716`*^9}, {3.986117344080861*^9, 3.986117350163978*^9}, {
    3.986117429876467*^9, 3.9861174421178536`*^9}, {3.986117486062649*^9, 
    3.9861175589230747`*^9}, {3.986117620431857*^9, 3.9861176395367613`*^9}, 
-   3.9861176728867245`*^9, 3.9861179385585485`*^9, 3.986118014731433*^9},
- CellLabel->"Out[19]=",ExpressionUUID->"e7fe3a48-234b-4aa8-b7d5-0976d04c4f33"]
+   3.9861176728867245`*^9, 3.9861179385585485`*^9, 3.986118014731433*^9, 
+   3.987642924144395*^9, {3.987642980541621*^9, 3.9876430372077856`*^9}},
+ CellLabel->"Out[19]=",ExpressionUUID->"ed893071-74af-4d37-9ece-0793ee9c09c6"]
 }, Open  ]]
 },
 WindowSize->{960., 472.5},
-WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
+WindowMargins->{{Automatic, 229.5}, {Automatic, 113.25}},
 FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 30, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"767d911e-d0e6-4709-ae27-8a08606ddb1d"
@@ -548,11 +550,11 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 4575, 148, 371, "Input",ExpressionUUID->"d1513553-1578-43ef-a533-1d67de7f4654"],
-Cell[5136, 170, 807, 22, 86, "Input",ExpressionUUID->"8f3972b9-4566-418b-8319-4a20eba23288"],
+Cell[558, 20, 4625, 149, 371, "Input",ExpressionUUID->"d1513553-1578-43ef-a533-1d67de7f4654"],
+Cell[5186, 171, 807, 22, 86, "Input",ExpressionUUID->"8f3972b9-4566-418b-8319-4a20eba23288"],
 Cell[CellGroupData[{
-Cell[5968, 196, 3965, 103, 312, "Input",ExpressionUUID->"e2b2469c-66fa-475f-99ee-590a268a6196"],
-Cell[9936, 301, 7237, 229, 120, "Output",ExpressionUUID->"e7fe3a48-234b-4aa8-b7d5-0976d04c4f33"]
+Cell[6018, 197, 4013, 103, 312, "Input",ExpressionUUID->"e2b2469c-66fa-475f-99ee-590a268a6196"],
+Cell[10034, 302, 7282, 230, 120, "Output",ExpressionUUID->"ed893071-74af-4d37-9ece-0793ee9c09c6"]
 }, Open  ]]
 }
 ]
